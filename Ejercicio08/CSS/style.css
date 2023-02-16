@@ -1,0 +1,28 @@
+/* 
+    Created on : 16 feb 2023, 18:49:53
+    Author     : pablo
+*/
+body{
+    text-align: center;
+}
+
+.title{
+    background-image: linear-gradient(to right, #ffafbd, #ffc3a0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    text-shadow: 2px 2px #ba07a2;
+}
+
+body input{
+    border-radius: 10px;
+    border: 5px solid violet;
+    font-size: 30px
+}
+
+table{
+    margin-left: 47%;
+}
+

@@ -9,7 +9,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Relación 12 - Ejercicio 12</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="CSS/style.css" rel="stylesheet"/>
   </head>
   <body>
     <h1>Generador de calendario</h1>

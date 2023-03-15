@@ -1,0 +1,29 @@
+/* 
+    Created on : 15 mar 2023, 18:19:04
+    Author     : pablo
+*/
+.contenedor {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+      
+.sabor {
+    text-align: center;
+    padding: 1em;
+}
+      
+.error {
+    text-align: center;
+    color: red;
+ }
+ 
+
+.tarrina {
+    width: 320px;
+    border-width: 6px;
+    border-radius: 4px;
+    border-color: brown;
+    border-style: solid;
+    border-top-color: white;
+}

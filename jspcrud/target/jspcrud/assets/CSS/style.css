@@ -1,0 +1,200 @@
+:root{
+    --color-primary: #0000a0;
+    --color-primary-contrast: #f0f0f0;
+    --color-secondary: #891eb3;
+    --color-secondary-contrast: #f0f0f0;
+    --color-danger: #f0000;
+    --color-danger-contrast: #f0f0f0;
+    --color-succes: #00f000;
+    --color-succes-contrast: #f0f0f0;
+    --color-warning: #f0f000;
+    --color-warning-contrast: #404040;
+}
+
+/************ GENERAL *************/
+
+/*Titulos*/
+.title {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+    color: #4CAF50;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 50px;
+}
+
+.subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+/*Botones de crear*/
+#crear {
+    text-align: center;
+    margin-top: 50px;
+}
+  
+.boton-crear {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+  
+.boton-crear:hover {
+    background-color: #3e8e41;
+}
+
+/*Boton de inicio*/
+.boton-inicio {
+    display: inline-block;
+    background-color: #ff6363;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+  
+.boton-inicio:hover {
+    background-color: #ff4848;
+}
+  
+.boton-inicio:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 99, 99, 0.4);
+}
+  
+.boton-inicio:active {
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/*Botones de volver*/
+.boton-volver {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.boton-volver:hover {
+    background-color: #3e8e41;
+}
+  
+.volver {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/************ INDEX *************/
+
+.index {
+    text-align: center;
+}
+
+.index form {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+}
+  
+.index button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    margin-right: 10px;
+}
+  
+.index button:hover {
+    background-color: #3e8e41;
+}
+
+/************* TABLA **************/
+
+.tableAlum table {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 50px auto;
+}
+  
+.tableAlum table td, .tableAlum table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+  
+.tableAlum table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+  
+.tableAlum table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*Modificación*/
+
+.modiAlum {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+  
+.modiAlum label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+  
+.modiAlum input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+button.boton-mod {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+  
+button.boton-mod:hover {
+    background-color: #2980b9;
+}
